@@ -75,7 +75,7 @@ public class Store implements Runnable {
         System.out.println(visitor.print());
         System.out.printf("Базовая стоимость : %.2f руб.%n", cart.getTotalCost());
         System.out.printf("По программе лояльности: %.2f руб.%n", loyaltyPrice);
-        System.out.printf("Итого (лояльность): %.2f руб.%n", loyaltyPrice);
+        System.out.printf("Итого: %.2f руб.%n", loyaltyPrice);
         System.out.println("[Касса] Завершила обработку " + order + "\n");
     }
 }
