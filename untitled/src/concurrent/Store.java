@@ -65,7 +65,7 @@ public class Store implements Runnable {
             }
         }
 
-        cart.setStrategy(new LoyaltyPricing(10000, 0.15));
+        cart.setStrategy(new LoyaltyPricing(350, 0.15));
         double loyaltyPrice = cart.getCalculatedCost();
 
         ReceiptVisitor visitor = new ReceiptVisitor();
